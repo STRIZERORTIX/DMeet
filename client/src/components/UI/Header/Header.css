@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+
+}
+.header_logo img{
+    width: 100px;
+    height: 100px;
+}
+.header_nav li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color:#000;
+}
+.header_nav{
+    flex: 2;
+    text-align: right;
+    padding-bottom: 12px;
+}
+
+.header_logo h2{
+    font-family: 'Leckerli One', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
